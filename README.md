@@ -1,0 +1,34 @@
+# Android轮子使用
+
+- 导航栏的封装jar包
+    compile 'com.github.open-android:FragmentTabhostUtils:0.5.0'
+- 引导动画
+    compile 'com.github.wooplr:Spotlight:1.2.3'
+    compile 'com.github.amlcurran.showcaseview:library:5.4.3'
+    compile 'com.github.open-android:GuideDialog:0.1.0'
+ - 二维码
+    compile 'com.github.open-android:Zxing:v1.0.3'
+ - 正在加载的对话框
+    compile 'com.github.open-android:Loading:1.0'
+ - 轮播图
+    compile 'com.github.open-android:LoopViewPager:1.0.0'
+ - 点赞动画
+    compile 'com.github.open-android:Android-DivergeView2:0.1.0'
+ - 浮动按钮
+    compile 'com.github.clans:fab:1.6.4'
+ - 网络请求 get、post
+    compile 'com.github.open-android:RetrofitUtils:0.1.9'
+ - 图片圆角
+    compile 'com.github.open-android:RoundedImageView:v1.0.0'
+ - 好看弹窗
+    compile 'com.github.open-android:MaterailDialog:v1.0.2'
+ - 弹幕
+    compile 'com.github.open-android:DanmakuFlame:v1.0.0'
+ - QQ调用分享
+    compile 'com.github.open-android:BridgeWebView:v1.0'
+ - 省级联动
+    compile 'com.github.open-android:CityPickerWebView:0.1.0'
+ - 可拖动的网格布局
+    compile 'com.github.open-android:DynamicGridView:0.1.0'
+ - 图片缩放（点击放大）
+    compile 'com.github.open-android:PhotoImageView:0.1.0'

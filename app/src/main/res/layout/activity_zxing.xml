@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/textCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入内容，生成二维码"
+        android:text="http://baidu.com" />
+
+    <Button
+        android:id="@+id/createCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成二维码" />
+
+    <Button
+        android:id="@+id/saoMiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫码（支持识别相册二维码）" />
+
+    <ImageView
+        android:id="@+id/image_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:text="扫描返回bitmap"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_callback"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
